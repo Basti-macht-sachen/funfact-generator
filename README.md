@@ -1,15 +1,20 @@
 # funfact-generator
 it creates funfacts 
 
-## wsl installieren 
-1. microsoft store wsl installieren 
-2. microsoft store ubuntu installieren 
-3. ubuntu ausführen 
+## wsl install 
+1. microsoft store wsl install
+2. microsoft store ubuntu install
+3. open ubuntu  
 
 ## python flask 
 ```
 sudo apt-get update
 sudo apt-get install python3-flask
+```
+
+## run code 
+```
+python3 app.py
 ```
 
 ## git config 
