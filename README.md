@@ -2,9 +2,10 @@
 it creates funfacts 
 
 ## wsl install 
-1. install wsl 
-2. install ubuntu
-3. open ubuntu  
+1. install VS 
+2. install wsl 
+3. install ubuntu
+4. open ubuntu  
 
 ## python flask 
 ```
