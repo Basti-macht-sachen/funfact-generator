@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fun Facts Website</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+
+<div class="fun-facts-container">
+    <h1 class="title">🎉 Fun Facts for You! 🎉</h1>
+    <div class="fact-box">
+        <p id="fact">{{ fact }}</p> <!-- Display the initial random fact -->
+    </div>
+
+    <div class="button-container">
+        <!-- Button to get a new fun fact -->
+        <button id="newFactButton" class="btn">Get a New Fun Fact!</button>
+    </div>
+
+    <div class="footer">
+        <p>Made with ❤️ by Your Fun Fact Generator</p>
+    </div>
+</div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>

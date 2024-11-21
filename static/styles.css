@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    text-align: center;
+    padding: 20px;
+}
+
+.fun-facts-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.fact-box {
+    font-size: 1.2em;
+    margin: 20px 0;
+    color: #555;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: #e74c3c;  /* Red button color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #c0392b;  /* Darker red when hovered */
+}
+
+.footer {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #999;
+}
