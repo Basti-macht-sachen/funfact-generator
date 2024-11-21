@@ -2,8 +2,8 @@
 it creates funfacts 
 
 ## wsl install 
-1. microsoft store wsl install
-2. microsoft store ubuntu install
+1. install wsl 
+2. install ubuntu
 3. open ubuntu  
 
 ## python flask 
